@@ -1,0 +1,52 @@
+#pageBanner {
+  background-image: url("https://static.ivanti.com/sites/marketing/media/images/company/contact/contact_header-bground.jpg?ext=.jpg");
+  background-size: cover;
+  text-align: center;
+  padding: 150px 0;
+  color: white;
+}
+
+.CTA {
+  padding: 2em 0;
+}
+.CTA .ctaLink {
+  background-color: #da291c;
+  color: white;
+  padding: 0.5em 0.25em;
+  border: 1px solid #da291c;
+  text-decoration: none;
+}
+.CTA .ctaLink:hover {
+  background-color: white;
+  color: #da291c;
+}
+
+.flex-row {
+  display: flex;
+  flex-flow: row wrap;
+}
+.flex-row::before {
+  display: block;
+}
+
+.quickContact a {
+  padding: 0.5em 0.25em;
+  background-color: #da291c;
+  color: white;
+  margin: 1em 0;
+  text-decoration: none;
+}
+
+[class*=col-] {
+  margin-bottom: 30px;
+}
+
+.office {
+  height: 100%;
+}
+
+#Global .office {
+  font-size: 125%;
+}
+
+/*# sourceMappingURL=index.css.map */
