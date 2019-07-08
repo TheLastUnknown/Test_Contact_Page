@@ -17,7 +17,7 @@ function readJsonFile() {
         }
         else{
             location += "<div class='office col-lg-4 col-md-6 col-12'>";
-            location += '<div class="officeInfo border border-dark p-2 my-2">';
+            location += '<div class="officeInfo p-2 my-2">';
             location += '<h5>'+(hackyJson[l].Name != "" ? hackyJson[l].Name : hackyJson[l].Country)+'</h5>';
         }
 

@@ -6,6 +6,19 @@
   color: white;
 }
 
+.regionSelector a {
+  background-color: #da291c;
+  color: white;
+  padding: 0.5em 0.25em;
+  border: 1px solid #da291c;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.regionSelector a:hover {
+  background-color: white;
+  color: #da291c;
+}
+
 .CTA {
   padding: 2em 0;
 }
@@ -15,6 +28,7 @@
   padding: 0.5em 0.25em;
   border: 1px solid #da291c;
   text-decoration: none;
+  transition: 0.3s;
 }
 .CTA .ctaLink:hover {
   background-color: white;
@@ -23,7 +37,7 @@
 
 .flex-row {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
 }
 .flex-row::before {
   display: block;
@@ -39,10 +53,6 @@
 
 [class*=col-] {
   margin-bottom: 30px;
-}
-
-.office {
-  height: 100%;
 }
 
 #Global .office {
